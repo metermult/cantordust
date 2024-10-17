@@ -20,10 +20,10 @@ Take a look at [this blogpost](https://inside.battelle.org/blog-details/battelle
       1. Download from: [https://ghidra-sre.org](https://ghidra-sre.org/)
       2. Refer to the Ghidra Installation Guide: https://ghidra-sre.org/InstallationGuide.html
 3. Open Ghidra and start a new Project
-4. Map the Script Manager to your cantordust repo
-   1. Click the green play button in the task bar (script manager)
-   2. Click on the icon called "script directories" when hovered over
-   3. Click the green `+` (plus sign) and add the cantordust directory to the list
+4. Add Cantordust to your scripts
+   1. Move all scripts pulled down from `cantordust` to your `~/ghidra_scripts` directory
+   2. Navigate to the scripts manager (green -> play button on the toolbar)
+   3. Click the green refresh icon
 5. Run Cantordust for testing
    1. Filter the script manager for `Cantordust.java`. 
    2. Highlight the file and click the green play button
